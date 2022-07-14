@@ -43,14 +43,15 @@ $ npm run start:dev
 
 # production mode
 $ npm run start:prod
+```
+
 # db Connection
 ## Create a database in mysql
-## In app.module.ts
+  ## In app.module.ts
   ### change username to your mysql username
   ### change password to your mysql password
   ### change database to name of newly created database
-```
-
+  
 # Routes
 
 localhost:3333/auth/signin
