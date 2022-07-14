@@ -1,4 +1,11 @@
-import { IsEmail, IsNotEmpty, MaxLength, MinLength } from 'class-validator';
+import {
+  IsEmail,
+  IsInt,
+  IsNotEmpty,
+  Max,
+  Min,
+  MinLength,
+} from 'class-validator';
 
 export class AuthDto {
   @IsNotEmpty()
@@ -14,5 +21,8 @@ export class AuthDto {
   password: string;
 
   @IsNotEmpty()
+  @IsInt()
+  @Min(1000000000)
+  @Max(9999999999)
   phone: number;
 }
