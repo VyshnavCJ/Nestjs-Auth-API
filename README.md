@@ -43,7 +43,18 @@ $ npm run start:dev
 
 # production mode
 $ npm run start:prod
+# db Connection
+## Create a database in mysql
+## In app.module.ts
+  ### change username to your mysql username
+  ### change password to your mysql password
+  ### change database to name of newly created database
 ```
+
+# Routes
+
+localhost:3333/auth/signin
+localhost:3333/auth/signup
 
 ## Test
 
@@ -71,5 +82,4 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
-"# nextjs-auth-api" 
-"# nextjs-auth-api" 
+"# nextjs-auth-api"
