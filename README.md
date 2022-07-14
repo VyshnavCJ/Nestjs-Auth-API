@@ -53,15 +53,15 @@ create new database on mysql
 
 # .env file
   ## host
-    DATABASE_HOST=<host>
+    `DATABASE_HOST=<host>`
   ## user
-    DATABASE_USER=<username>
+    `DATABASE_USER=<username>`
   ## password
-    DATABASE_PWD=<password>
+    `DATABASE_PWD=<password>`
   ## mysql port
-    DATABASE_PORT=<port>
+    `DATABASE_PORT=<port>`
   ## database name
-    DATABASE_NAME=<database name>
+    `DATABASE_NAME=<database name>`
 
 ```
 
