@@ -53,15 +53,24 @@ create new database on mysql
 
 # .env file
   ## host
-    DATABASE_HOST=localhost
+    DATABASE_HOST=<host>
   ## user
-    DATABASE_USER=root
+    DATABASE_USER=<username>
   ## password
-    DATABASE_PWD='I am lonely@1'
+    DATABASE_PWD=<password>
   ## mysql port
-    DATABASE_PORT=3306
+    DATABASE_PORT=<port>
   ## database name
-    DATABASE_NAME=auth_api
+    DATABASE_NAME=<database name>
+
+```
+
+## JWT Token
+
+```bash
+  # jwt secret key
+  # .env file
+    JWT_SECRET=<key>
 
 ```
 
@@ -69,10 +78,10 @@ create new database on mysql
 
 ```bash
 # signin
-localhost:3333/auth/signin
+    localhost:3333/auth/signin
 
 # signup
-localhost:3333/auth/signup
+    localhost:3333/auth/signup
 
 ```
 
