@@ -48,14 +48,21 @@ $ npm run start:prod
 ## db Connection
 
 ```bash
-# development
-$
+# database creation
+create new database on mysql
 
-# watch mode
-$ npm run start:dev
+# .env file
+  ## host
+    DATABASE_HOST=localhost
+  ## user
+    DATABASE_USER=root
+  ## password
+    DATABASE_PWD='I am lonely@1'
+  ## mysql port
+    DATABASE_PORT=3306
+  ## database name
+    DATABASE_NAME=auth_api
 
-# production mode
-$ npm run start:prod
 ```
 
 ## Routes
